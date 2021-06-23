@@ -163,10 +163,10 @@ function createTeam() {
             <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">${team[i].name}</h5>
-              <h6 class="card-subtitle mb-2 text-muted">${team[i].role}</h6>
+              <h6 class="card-subtitle mb-2 text-muted">${team[i].title}</h6>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Employee ID: ${team[i].id}</li>
-                <li class="list-group-item">email: ${team[i].email}</li>
+                <li class="list-group-item">Email: <a href="mailto:${team[i].email}">${team[i].email}</a>></li>
               `
 
         if (team[i].officeNumber) {
@@ -177,7 +177,7 @@ function createTeam() {
 
         if (team[i].github) {
             card += `
-                <li class="list-group-item">Github: ${team[i].github}</li>
+                <li class="list-group-item">Github: <a href="https://github.com/${team[i].github}" target =_blank>${team[i].github}</a></li>
                 `
         }
 
