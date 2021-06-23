@@ -5,6 +5,7 @@ We were tasked with creating an automated team profile generator. Once the user 
 
 # Example
 [Demo Video](https://drive.google.com/file/d/1CgZHEM28-1qJNluG-tjQyVSAgAdnSMH8/view?usp=sharing)
+![screenshot](screenshot/screenshot.png)
 
 #Usage
 To use the tool type node index.js into your terminal.
