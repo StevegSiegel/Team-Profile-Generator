@@ -166,7 +166,7 @@ function createTeam() {
               <h6 class="card-subtitle mb-2 text-muted">${team[i].title}</h6>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Employee ID: ${team[i].id}</li>
-                <li class="list-group-item">Email: <a href="mailto:${team[i].email}">${team[i].email}</a>></li>
+                <li class="list-group-item">Email: <a href="mailto:${team[i].email}">${team[i].email}</a></li>
               `
 
         if (team[i].officeNumber) {
